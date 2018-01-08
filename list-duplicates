@@ -1,0 +1,19 @@
+a = []
+b = []
+dup = []
+
+print "We are going to find the duplicates in two lists that you will define"
+
+while len(a) < 6:
+    add = raw_input("Enter a number to your first 6 number long list: ")
+    a.append(add)
+
+while len(b) < 6:
+    add = raw_input("Enter a number to your second 6 number long list: ")
+    b.append(add)
+
+for number in a and b:
+    if number in a and b:
+        dup.append(number)
+print "The following numbers are duplicated in the lists"
+print dup
