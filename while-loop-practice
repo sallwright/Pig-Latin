@@ -1,0 +1,11 @@
+count = 0
+while count < 3:
+
+    def function(x):
+        squared = list(map(lambda number: number ** 2, x))
+        print(squared)
+    count = count + 1
+
+    user = int(input("How long would you like the list to be?"))
+    lst = list(range(user))
+    function(lst)
